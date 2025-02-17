@@ -11,7 +11,7 @@ int main() {
     else if ((a + b > c) && (a + c > b) && (b + c > a)) {
         printf("Valid\n");
     } else {
-        printf("Invalid triangle.\n");
+        printf("Invalid\n");
     }
 
     return 0;
