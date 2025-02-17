@@ -6,7 +6,7 @@ int main() {
 
     // Check LSB using bitwise AND
     if (num & 1) {
-        printf("Set\n.", num);
+        printf("Set\n", num);
     } else {
         printf("Not Set\n", num);
     }
