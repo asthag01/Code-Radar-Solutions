@@ -22,7 +22,7 @@ int main() {
         i++;
     }
 
-    printf(" ");
+    printf("");
     for (int j = i - 1; j >= 0; j--) {
         printf("%d", binary[j]);
     }
