@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
     char a;
-    float b,c,d,e,f,g;
+    float b,c,d;
     scanf("%d%d", &b,&c);
     scanf("%c",&a);
     switch(a) {
@@ -10,16 +10,16 @@ int main(){
         printf("%.2f",d);
         break;
          case '-':
-        e=b-c;
-        printf("%.2f",e);
+        d=b-c;
+        printf("%.2f",d);
         break;
          case '*':
-        f =b+c;
-        printf("%.2f",f);
+        d=b+c;
+        printf("%.2f",d);
         break;
          case '/':
-        g=b+c;
-        printf("%.2f",g);
+        d=b+c;
+        printf("%.2f",d);
         break;
         default:
         printf("Invalid");
