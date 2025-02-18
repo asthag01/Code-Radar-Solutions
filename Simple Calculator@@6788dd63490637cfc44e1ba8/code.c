@@ -7,19 +7,19 @@ int main(){
     switch(a) {
         case '+':
         d=b+c;
-        printf("%d",d);
+        printf("%.2f",d);
         break;
          case '-':
         e=b-c;
-        printf("%d",e);
+        printf("%.2f",e);
         break;
          case '*':
         f =b+c;
-        printf("%d",f);
+        printf("%.2f",f);
         break;
          case '/':
         g=b+c;
-        printf("%d",g);
+        printf("%.2f",g);
         break;
         default:
         printf("Invalid");
