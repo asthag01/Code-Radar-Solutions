@@ -1,29 +1,16 @@
-#include<stdio.h>
-int main()
+#include <stdio.h>
+ 
+int main() 
 {
- 	int i, j, rows; 
- 	scanf("%d", &rows);
-	for(i = rows; i > 0; i--)
-	{
-        if(i == 1 || i == rows)
-        {
-            for(j = 1; j <= i; j++)
-            {
-                printf("* ");
-            }
-        }
-        else
-        {
-            for(j = 1; j <= i; j++)
-            {
-                if(j == 1 || j == i)
-                {
-                    printf("*");
-                }
-               
-            }
-        }   
-		printf("\n");
-	}
- 	return 0;
+  int Rows, i, j;
+  scanf("%d", &Rows);
+  for ( i = Rows ; i > 0 ; i-- ) 
+  {
+      for ( j = i ; j > 0 ; j-- ) 
+      {
+          printf("* ");
+      }
+      printf("\n");
+  }
+  return 0;
 }
