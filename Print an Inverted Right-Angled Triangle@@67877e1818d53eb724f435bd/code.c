@@ -18,7 +18,7 @@ int main()
             {
                 if(j == 1 || j == i)
                 {
-                    printf("*");
+                    printf("* ");
                 }
                 else
                 {
