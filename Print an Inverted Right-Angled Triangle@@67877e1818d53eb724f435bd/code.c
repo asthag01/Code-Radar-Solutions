@@ -2,10 +2,7 @@
 int main()
 {
  	int i, j, rows; 
- 	printf("Enter Hollow Inverted Right Triangle Rows =  ");
  	scanf("%d", &rows);
-
-    printf("Hollow Inverted Right Triangle Star Pattern\n");
 	for(i = rows; i > 0; i--)
 	{
         if(i == 1 || i == rows)
@@ -32,4 +29,4 @@ int main()
 		printf("\n");
 	}
  	return 0;
-}.
+}
