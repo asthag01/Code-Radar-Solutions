@@ -17,9 +17,8 @@ void rotateArray(int arr[], int n, int k) {
 
 void printArray(int arr[], int n) {
     for (int i = 0; i < n; i++) {
-        printf("%d ", arr[i]);
+        printf("%d\n", arr[i]);  // Print each element on a new line
     }
-    printf("\n");
 }
 
 int main() {
@@ -30,8 +29,8 @@ int main() {
     scanf("%d", &k);
     
     rotateArray(arr, n, k);
-    printf("Rotated array: ");
-    printArray(arr, n);
+    printf("");
+    printArray(arr, n);  // Print each element on a new line
     
     return 0;
 }
